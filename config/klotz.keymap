@@ -116,7 +116,7 @@ label= "NAV"                              ;
     &kp DEL          &kp LEFT      &kp DOWN     &kp RIGHT     &kp PG_DN        &kp KP_N1   &kp KP_N2       &kp KP_N3      &kp KP_MULTIPLY   &kp NON_US_HASH
                                                 &trans        &kp C_PP         &kp KP_N0   &mo ADJ     
                         >;
-            sensor-bindings = <&inc_dec_kp K_REDO K_UNDO &inc_dec_kp LC(RIGHT) LC(LEFT)>;
+            sensor-bindings = <&inc_dec_kp LC(Y) LC(Z) &inc_dec_kp LC(RIGHT) LC(LEFT)>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
