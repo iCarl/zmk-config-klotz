@@ -32,6 +32,22 @@
 };
 
 / {
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_SEL 2>;
+        };
+        td1: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_1";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&sys_reset>, <&bootloader>;
+        };
+    };
     keymap {
                 compatible = "zmk,keymap";
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
