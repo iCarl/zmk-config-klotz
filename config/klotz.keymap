@@ -202,9 +202,9 @@ label= "ADJ"                               ;
 label= "MED"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃ RESET TAP ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
+// ┃ RESET TAP ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃    å      ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃           ┃  REWIND   ┃   MUTE    ┃ F FORWARD ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
+// ┃           ┃  REWIND   ┃   MUTE    ┃ F FORWARD ┃           ┃   ┃           ┃           ┃     ö     ┃    ä      ┃   Shift   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃           ┃  PREVIOUS ┃ PLAYPAUSE ┃   NEXT    ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -213,8 +213,8 @@ label= "MED"                               ;
  bindings = <
 // ╷           ╷          ╷          ╷          ╷           ╷   ╷          ╷           ╷           ╷           ╷           ╷
 
-    &td1       &trans     &trans     &trans     &trans          &trans     &trans      &trans      &trans       &trans
-    &trans     &kp C_RW   &kp C_MUTE &kp C_FF   &trans          &trans     &trans      &trans      &trans       &trans
+    &td1       &trans     &trans     &trans     &trans          &trans     &trans      &trans      &aa_low      &trans
+    &trans     &kp C_RW   &kp C_MUTE &kp C_FF   &trans          &trans     &trans      &ae_low     &ae_low      &kp RSHIFT
     &trans     &kp C_PREV &kp C_PP   &kp C_NEXT &trans          &trans     &trans      &trans      &trans       &trans     
                                      &trans     &trans          &trans     &trans
                         >;
