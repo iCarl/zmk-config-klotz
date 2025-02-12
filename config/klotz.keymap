@@ -63,6 +63,24 @@
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp LG(RIGHT)>, <&kp LS(LG(RIGHT))>;
+             aa_low: aa_low {
+			compatible = "zmk,behavior-macro";
+			label = "SE_AA_LOW";
+			#binding-cells = <0>;
+			bindings = <&kp LC(LS(U))>, <&kp N0>, <&kp N0>, <&kp E>, <&kp N5>, <&kp SPACE>;
+    		};
+		ae_low: ae_low {
+			compatible = "zmk,behavior-macro";
+			label = "SE_AE_LOW";
+			#binding-cells = <0>;
+			bindings = <&kp LC(LS(U))>, <&kp N0>, <&kp N0>, <&kp E>, <&kp N4>, <&kp SPACE>;
+    		};
+                oe_low: oe_low {
+			compatible = "zmk,behavior-macro";
+			label = "SE_OE_LOW";
+			#binding-cells = <0>;
+			bindings = <&kp LC(LS(U))>, <&kp N0>, <&kp N0>, <&kp F>, <&kp N6>, <&kp SPACE>;
+
         };
     };
     keymap {
