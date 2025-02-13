@@ -211,7 +211,7 @@
 
             bindings = <
 &td1    &trans      &trans      &trans      &trans  &trans  &trans           &kp SV_A_RING  &kp SV_A_UMLAUT  &kp SV_O_UMLAUT
-&trans  &kp C_RW    &kp C_MUTE  &kp C_FF    &trans  &trans  &kp RIGHT_SHIFT  &trans         &trans           &trans
+&trans  &kp C_RW    &kp C_MUTE  &kp C_FF    &trans  &trans  &kp RIGHT_SHIFT  &trans         &trans           &kp QMARK
 &trans  &kp C_PREV  &kp C_PP    &kp C_NEXT  &trans  &trans  &trans           &trans         &trans           &trans
                                 &trans      &trans  &trans  &trans
             >;
