@@ -130,7 +130,9 @@
                                             &trans         &kp C_PP      &kp KP_N0  &mo ADJ
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(Y) LC(Z) &inc_dec_kp RIGHT LEFT>;
+            sensor-bindings =
+                <&inc_dec_kp LC(Y) LC(Z)>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
