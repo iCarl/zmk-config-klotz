@@ -124,7 +124,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-&bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1  &trans         &bl BL_CYCLE  &kp KP_N7  &kp KP_N8        &kp KP_N9       &kp KP_PLUS        &kp EQUAL
+&bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2   &bl BL_CYCLE  &kp KP_N7  &kp KP_N8        &kp KP_N9       &kp KP_PLUS        &kp EQUAL
 &mt LCTRL ESC  &mt LALT HOME  &mt LGUI UP   &mt LSHFT END  &kp PG_UP     &kp KP_N4  &mt RSHFT KP_N5  &mt RGUI KP_N6  &mt RALT KP_MINUS  &mt RCTRL UNDER
 &kp DEL        &kp LEFT       &kp DOWN      &kp RIGHT      &kp PG_DN     &kp KP_N1  &kp KP_N2        &kp KP_N3       &kp KP_MULTIPLY    &kp NON_US_HASH
                                             &trans         &kp C_PP      &kp KP_N0  &mo ADJ
